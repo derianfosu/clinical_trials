@@ -1,0 +1,4 @@
+HOST = localhost
+DATABASE = {specify DB}
+USER = {insert username}
+PASSWORD = {insert password}
