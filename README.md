@@ -4,7 +4,7 @@ CS-519 Project (Big Data Analytics - Data Integration)
 Functions:
 - Parsed XML files into cElementTree Data Type
 - Automatic DB relations' attributes name and type identification
-- Crash Management System
+- Crash Management System (Rollback and Checkpoint - avoid missing data)
 - Clean and Ingest parsed data to PostgreSQL DB
 
 EXECUTING THE SCRIPT:
