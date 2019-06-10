@@ -9,7 +9,8 @@ Functions:
 
 EXECUTING THE SCRIPT:
 - update data.txt
-- place XML files into folder data or specify path in python script
+- create a folder 'data' or use any other name (change the path in python script) 
+- place XML files into folder 'data' or any specified path in the previous step
 - RUN 519project.py
 
 HOW TO CREATE OTHER RELATIONS
