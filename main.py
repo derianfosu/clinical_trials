@@ -175,14 +175,14 @@ if __name__ == "__main__":
     ## Connect to database
     conn = po.connect_database()
     cur = po.start_transaction(conn)
-    print("constructing table..")
+    print("constructing table.. TABLE_NAME: " + table_name)
     ## Construct relation
     po.construct_case_table(cur, table_name, "nct_id", "text", data_type)
 
     ## Commit changes to DB
     po.commit_transaction(conn)
 
-    print("integrating data..")
+    print("integrating data to " + table_name)
     ## Insert value to database
     integrate_data(data_source_path, xml_files, file_capacity, commit_threshold, data_type, conn, cur, table_name, 0, skip)
 
