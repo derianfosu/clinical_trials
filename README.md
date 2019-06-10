@@ -11,7 +11,7 @@ EXECUTING THE SCRIPT:
 - update data.txt
 - create a folder 'data' or use any other name (change the path in python script) 
 - place XML files into folder 'data' or any specified path in the previous step
-- RUN 519project.py
+- RUN main.py
 
 HOW TO CREATE OTHER RELATIONS
 - update relations name in the script
